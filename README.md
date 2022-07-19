@@ -1,4 +1,4 @@
-#Test task
+# Test task
 
 This program outputs numbers from 0 to 50.
 In case if the number is divisible by 5, the program outputs "да".
@@ -6,7 +6,7 @@ In case if the number is divisible by 7, the program outputs "нет".
 In case if the number is divisible by 5 and 7, the program outputs "данет".
 Otherwise, the program outputs the number.
 
-##How to run:
+## How to run:
 
 `php main.php`
 
@@ -16,7 +16,7 @@ or
 
 Read help to get info regarding available solutions.
 
-###Help:
+### Help:
 
 ```
 Usage: php main.php [--solution=<solution>|-s <solution>] [--test|-t] [--performance-test|-p] [--help]
@@ -39,7 +39,7 @@ Options:
 > 
 > `php main.php --performance-test`
 
-##Project structure
+## Project structure
 
 `App.php` is the main class which responsive to handle cli arguments run the solution and tests.
 
